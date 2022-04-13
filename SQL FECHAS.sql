@@ -1,0 +1,19 @@
+--Create database fecha
+--Use fecha
+--Select getdate()
+--Select datepart(month, getdate())
+--Select datepart(year, getdate())
+--Select datepart(day, getdate())
+--Select cast('2000-05-08 12:35:29.998' as datetime)
+--Select cast('2000-05-08 12:35:29.999' as smalldatetime)
+--Create table navidad(nombres varchar (20), sueldo int, fecha datetime)
+--Insert into navidad values('Jose', 5000, '2005/12/11')
+--Insert into navidad values('Ana', 6000, '2005/12/11')
+--Insert into navidad values('Maria',8000, '2005/12/11')
+--Insert into navidad values('Jose', 3000, '2005/12/11')
+--Select fecha, convert(char(20), fecha, 101)from navidad
+--Select fecha, convert(char(20), fecha, 102)from navidad
+--Select fecha, convert(char(20), fecha, 103)from navidad
+--Select fecha, convert(char(20), fecha, 104)from navidad
+--Select fecha, convert(char(20), fecha, 105)from navidad
+Select datediff(day, fecha, getdate()) as no_of_days from navidad

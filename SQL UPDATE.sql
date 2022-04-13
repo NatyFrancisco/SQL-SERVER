@@ -1,0 +1,11 @@
+--Create table banco(num_cuenta int, nombres varchar(20), capital int, tasa int, interes int)
+--Insert into banco values(90, 'Kenndy Abreu', 9000, 500, '')
+--Insert into banco values(91, 'Armando Ramirez', 8000, 400, '')
+--Insert into banco values(92, 'Lorena Abreu', 6000, 300, '')
+--Insert into banco values(93, 'Maria Lora', 2000, 100, '')
+--Select*from banco
+--Update banco set interes=capital*tasa where num_cuenta=90
+--Update banco set interes=capital*tasa where num_cuenta=91
+--Update banco set interes=capital*tasa where num_cuenta=92
+--Update banco set interes=capital*tasa where num_cuenta=93
+Select*from banco
